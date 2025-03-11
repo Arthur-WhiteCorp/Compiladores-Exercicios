@@ -17,6 +17,28 @@ instalar com:
 ```
 pip install antlr4-python3-runtime
 ```
+## Execução
+
+para gerar o listener/visitor e o parser:
+
+```
+./generate.sh <gramatica> <listener|visitor>
+```
+
+### Exemplos
+
+gerando o visitor para Hello.g:
+
+```
+./generate.sh Hello/Hello.g visitor
+```
+
+gerando o listener para Hello.g:
+
+```
+./generate.sh Hello/Hello.g listener
+```
+
 
 ## Autor
 

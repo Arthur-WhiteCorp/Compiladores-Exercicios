@@ -7,7 +7,7 @@ DEST_LANG="Python3"
 
 if [ -z "$1" ]; then
     echo "deve passar como argumento o nome da gramatica"
-    echo "./generate.sh <gramatica> <listener|visitor> <python|cpp>"
+    echo "./generate.sh <gramatica> <listener|visitor>"
     exit 1
 fi
 
@@ -18,13 +18,13 @@ fi
 
 if [ -z "$2" ]; then
     echo "deve passar como argumento se quer gerar um listener ou visitor"
-    echo "./generate.sh <gramatica> <listener|visitor> <python|cpp>"
+    echo "./generate.sh <gramatica> <listener|visitor>"
     exit 2
 fi
 
 if [ "$2" != "listener" ] && [ "$2" != "visitor" ]; then
     echo "segundo argumento não reconhecido"
-    echo "./generate.sh <gramatica> <listener|visitor> <python|cpp>"
+    echo "./generate.sh <gramatica> <listener|visitor>"
     exit 2
 fi
 
@@ -38,5 +38,5 @@ fi
 
 
 
-java -jar $ANTLR_PATH -Dlanguage=$DEST_LANG $VISITOR_LISTENER ./$1
+java -jar $ANTLR_PATH -Dlanguage=$DEST_LANG $VISITOR_LISTENER ./python/$1
 
