@@ -1,4 +1,4 @@
-# DESCRIÇÃO
+# Descrição
 
 Repositório de exercícios para a matéria de compiladores 2025/01, contém exercícos em python.
 Qualquer cópia destes exercicios pelos alunos cursantes da disciplina será considerada plágio.
