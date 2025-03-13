@@ -23,7 +23,7 @@ pip install antlr4-tools
 Para gerar o listener/visitor e o parser:
 
 ```
-./generate.sh <gramatica> <listener|visitor>
+./generate.sh <gramática> <listener|visitor>
 ```
 
 ### Exemplos
@@ -65,10 +65,24 @@ https://private-user-images.githubusercontent.com/76797238/422145550-6ae907f2-0e
 ./tree.sh Expr/Expr.g root
 ```
 ![Screeshot](https://private-user-images.githubusercontent.com/76797238/422150467-091a62b9-3742-479b-83d2-3f0b2794fa16.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE4MzM4NDksIm5iZiI6MTc0MTgzMzU0OSwicGF0aCI6Ii83Njc5NzIzOC80MjIxNTA0NjctMDkxYTYyYjktMzc0Mi00NzliLTgzZDItM2YwYjI3OTRmYTE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEzVDAyMzkwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBiYTRiMzhhYWIzYmI5NjE1MDAxZTY1YWUxYjc2ODEzN2RjMjU5NTE0N2QwZGFjY2MzYzAxYjk1NzlmMzU4MWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wCy1ZG7SH06NTZso4IjBDAnBcH436awKwD1HkxC1ryQ)
-Digite a entrada no terminal aperte ```<Enter>``` e depos ```<Ctrl+d>```
+Digite a entrada no terminal aperte ```<Enter>``` e depois ```<Ctrl+d>```
 
 Árvore:
 ![Screeshot](https://private-user-images.githubusercontent.com/76797238/422150372-00d8de09-969b-42d4-a7e1-c074f2293f7a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE4MzQwNzMsIm5iZiI6MTc0MTgzMzc3MywicGF0aCI6Ii83Njc5NzIzOC80MjIxNTAzNzItMDBkOGRlMDktOTY5Yi00MmQ0LWE3ZTEtYzA3NGYyMjkzZjdhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEzVDAyNDI1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE3NWMwM2RlYjE4YmQwMzhhYWY1OTdmNWQxNzQwMWNjYmU2MDYwMTM5NzU1YjZlY2JlNDUyZDI5NGExNmExZjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Wfvev_H7MlnRt01OQeo4D8RzxWLuecOtYxabChJcrD4)
+
+
+## Como usar:
+
+Suponha que queremos executar o main.py do Exemplo Hello:
+
+1. Ir para a raiz do repositorio: ```cd Compiladores-Exercicios```;
+2. Localizar sua gramática neste caso ela se encontra em: ```/python/Expr/Expr.g```;
+3. Gerar o Parser eo Visitor/Listener: ```./generate.sh Expr/Expr.g visitor```;
+4. Executar o main.py: ```python Expr/main.py```;
+5. Visualizar a Árvore da gramática: ```./tree.sh Expr.g root Expr/input.txt``` (Opicional).
+
+
+
 
 ## Autor
 
