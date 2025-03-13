@@ -54,6 +54,7 @@ Caso haja um <input.txt>, ele deve estar no diretorio python.
 ```
 ./tree.sh Expr/Expr.g root input.txt
 ```
+![Screenshot](https://user-images.githubusercontent.com/12345678/1234567890-abcdef12-3456-7890-1234567890ab.png)
 
 ## Autor
 
