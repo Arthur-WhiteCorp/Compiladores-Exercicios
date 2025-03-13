@@ -77,7 +77,7 @@ Suponha que queremos executar o main.py do Exemplo Hello:
 
 1. Ir para a raiz do repositorio: ```cd Compiladores-Exercicios```;
 2. Localizar sua gramática neste caso ela se encontra em: ```/python/Expr/Expr.g```;
-3. Gerar o Parser eo Visitor/Listener: ```./generate.sh Expr/Expr.g visitor```;
+3. Gerar o Parser e o Visitor/Listener: ```./generate.sh Expr/Expr.g visitor```;
 4. Executar o main.py: ```python Expr/main.py```;
 5. Visualizar a Árvore da gramática: ```./tree.sh Expr.g root Expr/input.txt``` (Opicional).
 
