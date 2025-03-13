@@ -58,17 +58,16 @@ Arquivo:
 ![alt text](https://i.imgur.com/1ItsaZD.png)
 
 Árvore:
-![image](https://imgur.com/YYKUqPo)
-
+![image](https://i.imgur.com/YYKUqPo.png)
 Árvore de Expr.g com entrada do terminal:
 ```
 ./tree.sh Expr/Expr.g root
 ```
-![Screeshot](https://imgur.com/yCKJy5H)
+![Screeshot](https://i.imgur.com/yCKJy5H.png)
 Digite a entrada no terminal aperte ```<Enter>``` e depois ```<Ctrl+d>```
 
 Árvore:
-![Screeshot](https://imgur.com/xCGXLnS)
+![Screeshot](https://i.imgur.com/xCGXLnS.png)
 
 
 ## Como usar:
