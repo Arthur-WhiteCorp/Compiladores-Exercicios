@@ -54,8 +54,8 @@ Caso haja um <input.txt>, ele deve estar no diretorio python.
 ```
 ./tree.sh Expr/Expr.g root input.txt
 ```
-![Screenshot](https://user-images.githubusercontent.com/12345678/1234567890-abcdef12-3456-7890-1234567890ab.png)
-
+![Screenshot](
+https://private-user-images.githubusercontent.com/76797238/422145550-6ae907f2-0e12-420e-88a8-358a93a927f0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE4MzMwNTcsIm5iZiI6MTc0MTgzMjc1NywicGF0aCI6Ii83Njc5NzIzOC80MjIxNDU1NTAtNmFlOTA3ZjItMGUxMi00MjBlLTg4YTgtMzU4YTkzYTkyN2YwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzEzVDAyMjU1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVjMWM4ODAwNGE1NjQzNTBlZmNmZWJjOTZlOWU2YTNlMGQ1N2JmM2U1ZWY4NzMyYmQwNTM5YmI2YmY4NjNlZjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.zg9_SgZ970_yNGTZMLC5Q_oHjwdRWLLZ9NueO12K3As)
 ## Autor
 
 - Nome: Arthur Silva Matias
