@@ -12,14 +12,15 @@ Alunos devem somente utilizar o material fornecido como base para o desenvolvime
 ## Dependências
 
 - [antlr4-python3-runtime](https://pypi.org/project/antlr4-python3-runtime/)
+- [antlr4-tools](https://github.com/antlr/antlr4-tools)
 
-instalar com:
+Instalar com:
 ```
-pip install antlr4-python3-runtime
+pip install antlr4-tools
 ```
-## Execução
+## Gerando o parser
 
-para gerar o listener/visitor e o parser:
+Para gerar o listener/visitor e o parser:
 
 ```
 ./generate.sh <gramatica> <listener|visitor>
@@ -27,18 +28,32 @@ para gerar o listener/visitor e o parser:
 
 ### Exemplos
 
-gerando o visitor para Hello.g:
+Gerando o visitor para Hello.g:
 
 ```
 ./generate.sh Hello/Hello.g visitor
 ```
 
-gerando o listener para Hello.g:
+Gerando o listener para Hello.g:
 
 ```
 ./generate.sh Hello/Hello.g listener
 ```
+## Visualizando a Árvore
 
+Para visualizar a árvore:
+
+```
+./tree.sh <gramática> <regra-inicial> <input.txt>?
+```
+Caso haja um <input.txt>, ele deve estar no diretorio python.
+
+### Exemplo
+
+Árvore de Expr.g com input.txt:
+```
+./tree.sh Expr/Expr.g root input.txt
+```
 
 ## Autor
 

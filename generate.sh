@@ -4,6 +4,8 @@ SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 ANTLR_PATH="$SCRIPT_DIR/antlr/antlr-4.13.2-complete.jar"
 VISITOR_LISTENER=""
 DEST_LANG="Python3"
+GRAMMAR_PATH=""
+
 
 if [ -z "$1" ]; then
     echo "deve passar como argumento o nome da gramatica"
@@ -11,8 +13,12 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-if [ -e "$1" ]; then
-    echo "gramatica $1 nao encontrada"
+GRAMMAR_PATH="$SCRIPT_DIR/python/$1"
+
+if [ -e "$GRAMMAR_PATH" ]; then
+    :
+else
+    echo "gramatica $GRAMMAR_PATH nao encontrada"
     exit 1
 fi
 
@@ -38,5 +44,5 @@ fi
 
 
 
-java -jar $ANTLR_PATH -Dlanguage=$DEST_LANG $VISITOR_LISTENER ./python/$1
+java -jar $ANTLR_PATH -Dlanguage=$DEST_LANG $VISITOR_LISTENER $GRAMMAR_PATH 
 
