@@ -16,6 +16,7 @@ Alunos devem somente utilizar o material fornecido como base para o desenvolvime
 
 Instalar com:
 ```
+pip install antlr4-python3-runtime
 pip install antlr4-tools
 ```
 ## Gerando o parser
